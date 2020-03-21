@@ -1,12 +1,15 @@
 <template>
-  <div id="app">
+  <v-app id="app">
+    <Header/>
+    <h1>This is app.vue</h1>
     <p>{{ message }}</p>
     <Top/>
-  </div>
+  </v-app>
 </template>
 
 <script>
-import Top from "./components/Top"; //追記
+import Header from "./components/Header";
+import Top from "./components/Top";
 
 export default {
   data: function () {
@@ -15,7 +18,8 @@ export default {
     }
   },
   components: {
-    Top, //追記
+    Header,
+    Top,
   }
 }
 </script>
