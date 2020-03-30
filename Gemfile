@@ -30,6 +30,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'dotenv-rails'
 
+gem 'rails-i18n'
+
 gem 'devise'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
