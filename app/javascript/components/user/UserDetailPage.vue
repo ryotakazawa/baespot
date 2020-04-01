@@ -4,6 +4,7 @@
     <dd>{{ user.id }}</dd>
     <dt>Email</dt>
     <dd>{{ user.email }}</dd>
+    <router-link :to="{ name: 'UserIndexPage' }">一覧へ戻る</router-link>
   </dl>
 </template>
 

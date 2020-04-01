@@ -16,8 +16,10 @@ import UserDetailPage from './components/user/UserDetailPage.vue';
 const router = new VueRouter({
   routes: [
     { path: '/users/index',
+      name: 'UserIndexPage',
       component: UserIndexPage  },
     { path: '/users/:id(\\d+)',  // :id は数値のみに制限する
+      name: 'UserDetailPage',
       component: UserDetailPage  }
   ]
 })
