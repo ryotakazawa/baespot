@@ -7,7 +7,7 @@
           <th>email</th>
         </tr>
         <tr v-for="u in users" :key="u.id">
-          <td>{{ u.id }}</td>
+          <td><router-link :to="{ name: 'UserDetailPage', params: { id: u.id } }">{{ u.id }}</router-link></td>
           <td>{{ u.email }}</td>
         </tr>
       </tbody>
