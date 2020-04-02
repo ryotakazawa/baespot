@@ -1,10 +1,8 @@
 <template>
-  <header id="header">
-    <v-app-bar>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-      <v-toolbar-title>This is Header.vue</v-toolbar-title>
-    </v-app-bar>
-  </header>
+  <v-app-bar color="primary" fixed dark app>
+    <v-app-bar-nav-icon></v-app-bar-nav-icon>
+    <v-toolbar-title>BaeSpot!</v-toolbar-title>
+  </v-app-bar>
 </template>
 
 <script>
@@ -12,3 +10,6 @@
     name: 'Header',
   }
 </script>
+
+<style scoped>
+</style>
