@@ -1,5 +1,4 @@
 <template>
-  <div id="app">
     <table>
       <tbody>
         <tr>
@@ -12,7 +11,6 @@
         </tr>
       </tbody>
     </table>
-  </div>
 </template>
 
 <script>
